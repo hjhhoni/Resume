@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 这个是meta标签，用于设置网页的编码和视口 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./static/tou.png" type="image/x-icon">
+    <!-- 这个是标题标签，用于设置网页的标题 -->
+    <title>HONI的简历</title>
+    <!-- 引入 Bootstrap的CSS文件 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- 我自己写的CSS文件，可以根据自己的需求添加 -->
+    <link rel="stylesheet" href="css/my_css.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div id="head">
+ 
+        <div class="nav nav-underline" id="nav-tab" role="tablist">
+            <button class="nav-link active shou" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false">Huang Junhao</button>            
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Programming Language</button>
+            <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="false">Project</button>            
+        </div>
+
+    </div>
+
+
+    <!-- 内容区 -->
+    <div class="main-content">
+        <div class="sidebar">
+            <img src="./static/tou.png" class="author__avatar" alt="Your Sidebar Name">
+            <div class="author__content">
+                <h5 style="font-weight: bold;color: #353333c7;">Huang Junhao</h5>
+                <p style="color: #79757594;font-size: small;font-weight: 600;">一个广东寄宿吃饭大学的阳光帅气大学生一枚.</p>  
+
+                <div class="author__social">
+                    <a class="icon" id="wechat" href="./static/wechat.jpg">WeChat</a>
+                    <a class="icon" id="github" href="https://github.com/hjhhoni">GitHub</a>
+                    <a class="icon" id="gmail" href="mailto:<hjhhoni@gmail.com>">Gmail</a>
+                </div>
+    
+            </div>
+        </div>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane active show" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">
+                <h2>欢迎来到HONI的主页👋👋👋</h2>
+                <p>这里是一些关于我的介绍，包括我的研究方向、研究成果、教育经历、工作经历、联系方式等等。</p>
+
+                <div class="card">
+                    <div class="card-name">个人简介</div>
+                        <div class="quote">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 330 307" height="80" width="80">
+                                <path fill="currentColor" d="M302.258 176.221C320.678 176.221 329.889 185.432 329.889 203.853V278.764C329.889 297.185 320.678 306.395 302.258 306.395H231.031C212.61 306.395 203.399 297.185 203.399 278.764V203.853C203.399 160.871 207.902 123.415 216.908 91.4858C226.323 59.1472 244.539 30.902 271.556 6.75027C280.562 -1.02739 288.135 -2.05076 294.275 3.68014L321.906 29.4692C328.047 35.2001 326.614 42.1591 317.608 50.3461C303.69 62.6266 292.228 80.4334 283.223 103.766C274.626 126.69 270.328 150.842 270.328 176.221H302.258ZM99.629 176.221C118.05 176.221 127.26 185.432 127.26 203.853V278.764C127.26 297.185 118.05 306.395 99.629 306.395H28.402C9.98126 306.395 0.770874 297.185 0.770874 278.764V203.853C0.770874 160.871 5.27373 123.415 14.2794 91.4858C23.6945 59.1472 41.9106 30.902 68.9277 6.75027C77.9335 -1.02739 85.5064 -2.05076 91.6467 3.68014L119.278 29.4692C125.418 35.2001 123.985 42.1591 114.98 50.3461C101.062 62.6266 89.6 80.4334 80.5942 103.766C71.9979 126.69 67.6997 150.842 67.6997 176.221H99.629Z"></path>
+                            </svg>
+                        </div>
+                        <div class="body-text">&nbsp;&nbsp;&nbsp;&nbsp;我是来自广东深圳的24人工智能大一新生，热爱编程，喜欢研究WEB开发，网页设计，现已掌握Django、Flask这两种python的web框架来写后端，正在努力学习JavaScript、css、html等前端技术。我热爱学习，乐于分享，希望能与大家一起交流，共同进步！</div>
+                        <div class="author">- by Huang Junhao <br> <span>2024-12-28</span></div>
+                </div>
+
+            </div>    
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                <h2>Programming Language</h2>
+                <p>这里是一些我的编程语言掌握度</p>
+                <div class="USEofLang">  
+                    <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30%">
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped  progress-bar-animated bg-success" style="width: 40%">
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped  progress-bar-animated bg-info" style="width: 80%">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped  progress-bar-animated bg-warning" style="width: 75%">
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped  progress-bar-animated bg-danger" style="width: 60%">
+                            <span>C</span>
+                        </div>
+                    </div>
+                </div>
+                <h4 style="margin-top: 80px;">Web Framework</h4>
+                <p>掌握的一些Web框架</p>
+                <div class="USEofWebFramework">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./static/django.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">一个高级的 Python Web 框架。</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;background-color: rgba(3, 3, 3, 0.149);">
+                        <img src="./static/flask.png" class="card-img-top" alt="...">
+                        <div class="card-body" style="color: rgba(74, 74, 74, 0.486);">
+                          <p class="card-text">一个轻量级的 Python Web 框架，有简单灵活的 Web 开发基础架构。</p>
+                        </div>
+                    </div>                    
+                </div>
+                <h4 style="margin-top: 80px;">Python Library</h4>
+                <p>掌握的一些Python库</p>
+                <div class="USEofPythonLib">
+                    <ul>
+                        <li>NumPy</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib</li>
+                        <li>Seaborn</li>
+                        <li>requests</li>
+                        <li>BeautifulSoup</li>
+                        <li>re</li>
+                        <li>lxml</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                <h2>Project</h2>
+                <p>这里是一些我做过的项目</p>
+                <div class="project">
+                    <div class="project-item">
+                        <h3>动态个人博客</h3>
+                        <p>使用Django开发的个人博客网站，功能包括文章发布、评论、分类、标签、搜索、网站统计等。</p>
+                        <a href="#" target="_blank" style="pointer-events: none;cursor: default;color: gray;">暂时下线重做中...</a>                        
+                        <p>PC端页面</p>
+                        <img src="./static/p11.png" alt="blog" style="width: 80%;height: auto;">
+                        <img src="./static/p13.png" alt="blog" style="width: 80%;height: auto;">
+                        <p>移动端页面(很遗憾，没有保存移动端页面)</p>                   
+                    </div>
+                    <div class="project-item">
+                        <h3>静态生日祝福网页</h3>
+                        <p>使用HTML、CSS、JavaScript开发的静态生日祝福网页，可以自定义祝福语、背景图片、字体颜色、字体大小等。</p>
+                        <a href="https://hjhhoni.github.io/Birthday_card/" target="_blank">访问</a>                        
+                        <p>PC端页面</p>
+                        <img src="./static/p21.png" alt="birthday" style="width: 80%;height: auto;">
+                        <p>移动端页面</p>
+                        <img src="./static/p22.png" alt="birthday" style="width: 50%;height: auto;">                        
+                    </div>  
+                    <div class="project-item">
+                        <h3>静态个人简历</h3>
+                        <p>使用HTML、CSS、JavaScript开发的静态个人简历，可以自定义个人信息、技能、项目、教育经历等。</p>
+                        <a href="https://hjhhoni.github.io/blog/" target="_blank">访问</a>                        
+                        <p>PC端页面</p>
+                        <img src="./static/p31.png" alt="resume" style="width: 80%;height: auto;">
+                        
+                    </div>  
+                    <div class="project-item">
+                        <h3>个人文件仓库</h3>
+                        <p>使用HTML、CSS、JavaScript开发的静态个人仓库，可以分享一些不超过20mb的工具、程序、插件、资料等。且有管理系统，可以对文件进行上传、下载、删除、分享等操作。可依据文件夹结构自动生成树，还有搜索功能</p>
+                        <a href="https://hjhhoni.github.io/fileshare/" target="_blank">访问</a>                        
+                        <p>PC端页面</p>
+                        <img src="./static/p41.png" alt="blog" style="width: 80%;height: auto;">
+                    </div>
+                </div>
+                    
+            </div>            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- 引入 Bootstrap前要先引入jQuery，因为Bootstrap依赖jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- 我自己写的JS文件，可以根据自己的需求添加 -->
+    <script src="js/my_js.js"></script>
+</body>
+<script>  
+
+</script>
+</html>
